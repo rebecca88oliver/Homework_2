@@ -43,8 +43,8 @@
   </nav>
 </div>
 
-
-<div style="background-color: lightblue";>
+<!-- wraps contact form in container for spacing-->
+<div class="containter-flex pt-4 pl-4" >
 
                   <!-- Contact Form-->
     <div class="container-sm w-75
@@ -58,11 +58,11 @@
               <div class="controls">
 
                   <div class="row">
-
+                                    <!--name input-->
                       <div class="col-md-6">
                           <div class="form-group">
                               <label for="form_name">Name</label>
-                              <input id="form_name" type="text" name="name" class="form-control" placeholder="John Smith *" required="required" data-error="Firstname is required.">
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="John Smith *" required="required" data-error="Name is required.">
                               <div class="help-block with-errors"></div>
                           </div>
                       </div>
@@ -70,23 +70,23 @@
                   </div>
 
                   <div class="row">
-
+                                  <!-- email input-->
                       <div class="col-md-6">
                           <div class="form-group">
                               <label for="form_email">Email *</label>
-                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="youremail@mail.com *" required="required" data-error="Please enter your email.">
                               <div class="help-block with-errors"></div>
                           </div>
                       </div>
 
                   
                   </div>
-
+                        <!-- message input-->
                   <div class="row">
                       <div class="col-md-12">
                           <div class="form-group">
                               <label for="form_message">Message *</label>
-                              <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Write your questions or comments here! *" rows="4" required="required" data-error="Please write a message."></textarea>
                               <div class="help-block with-errors"></div>
                           </div>
                       </div>
@@ -100,6 +100,7 @@
         </form>
 
 </div>
+
 
 </body>
 
